@@ -8,11 +8,11 @@
 
 body {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(https://images2.alphacoders.com/743/743487.jpg);
+    background-image: url(../img/predio-de-apartamentos-de-luxo-com-fachada-de-vidro-reflete-o-por-do-sol-gerado-por-ia.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -23,12 +23,12 @@ body {
     width: 750px;
     height: 400px;
     border-radius: 20px;
-    background: rgba(2, 64, 89, 0.9);
+    background: rgba(166, 79, 3, 0.9);
     display: flex;
     justify-content: space-around;
     align-items: center;
     border: 2px solid rgba(13, 13, 13, 0.7);
-    box-shadow: -10px 15px 15px rgba(0, 0, 0, 0.7);
+    box-shadow: -10px 15px 15px rgba(0, 0, 0, 0.8);
 }
 
 h2 {
@@ -97,13 +97,13 @@ button[name="login"], button[name="cadastro"]{
 }
 
 button[name="cadastro"]:hover, button[name="login"]:hover {
-    background: rgb(4, 178, 217);
+    background: rgb(242, 174, 48);
     color: #fff;
 }
 
 .separador {
     height: 100%;
-    border: 1px solid rgb(1, 42, 58);
+    border: 1px solid #000;
 }
 
 .button {

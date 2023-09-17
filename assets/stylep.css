@@ -1,0 +1,103 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.PaginaInicial {
+    background-image: url('../img/outdoor-de-publicidade-para-em-frente-ao-predio-residencial.jpg');
+}
+
+.Sobrenos {
+    background-image: url('../img/pexels-ahmed-abdelaziz-453201.jpg');
+}
+
+.navbar p {
+    margin: 10px;
+    right: 10vw;
+    position: absolute;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 20px 0 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: #FFF;
+}
+
+#cadastro-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 20px 0 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.navbar a,
+ul {
+    color: #FFF;
+}
+
+button[type="reset"]:hover {
+    background: rgb(223, 15, 15);
+    border-color: rgb(223, 15, 15);
+}
+
+
+@media (min-width: 768px) {
+
+    .container {
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(10px);
+        transition: 0.5s;
+        height: 45vh;
+        width: 90vw;
+    }
+
+    #cadastro-form {
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(10px);
+        transition: 0.5s;
+        height: 40vh;
+        width: 90vw;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .container {
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(10px);
+        transition: 0.5s;
+        height: 60vh;
+        width: 95vw;
+    }
+
+    #cadastro-form {
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(10px);
+        transition: 0.5s;
+        height: 60vh;
+        width: 95vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .btn-sair {
+        margin-right: 10px;
+        right: 10px;
+        position: absolute;
+    }
+}

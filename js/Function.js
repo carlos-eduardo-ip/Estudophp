@@ -1,7 +1,3 @@
-function closeFunction(){
-    document.getElementById("alert").style.display = "none";
-}
-
 document.getElementById('olho1').addEventListener('mousedown', function() {
     document.getElementById('password1').type = 'text';
   });
